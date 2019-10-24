@@ -1,0 +1,37 @@
+html {
+    box-sizing:border-box;
+}
+*, *::before, *::after {box-sizing:inherit;}
+
+body {
+    background:purple;
+    font-family: 'Press Start 2P', cursive;
+    text-align:center;
+    color:white;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+#title {
+    font-size:50px;
+}
+#start {
+    font-size:20px;
+}
+
+#lives {
+    font-size:20px;
+    padding:10px;
+}
+
+ #underscores {
+     letter-spacing: 10px;
+     font-size:50px;
+     padding:10px;
+ }
+
+ #replay {
+     display:none;
+ }
+
+ 
